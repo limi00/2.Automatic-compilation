@@ -20,7 +20,7 @@
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # # Define My Package
-# git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/luci-app-adguardhome
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-usb3disable package/diy/luci-app-usb3disable
 git clone https://github.com/kenzok8/openwrt-packages.git package/diy/
 
