@@ -17,6 +17,7 @@
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 # sed -i '$a src-git project https://github.com/project-openwrt/openwrt' feeds.conf.default
 # sed -i '$a src-git openwrt https://github.com/openwrt/packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # # Define My Package
 # git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/luci-app-adguardhome
