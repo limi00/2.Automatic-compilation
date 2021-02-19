@@ -44,5 +44,10 @@ svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/ipt2socks
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-naiveproxy package/diy/luci-app-naiveproxy
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/ssocks package/diy/ssocks
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/tcping-simple package/diy/tcping-simple
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/simple-obfs package/diy/simple-obfs
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/v2ray-plugin package/diy/v2ray-plugin
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/microsocks11 package/diy/microsocks11
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/naiveproxy package/diy/naiveproxy
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/openwrt-pdnsd-full package/diy/openwrt-pdnsd-full
 
 rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
