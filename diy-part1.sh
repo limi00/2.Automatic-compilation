@@ -29,4 +29,4 @@ svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-
 git clone https://github.com/immortalwrt/openwrt-passwall.git package/diy/luci-app-passwall
 # git clone https://github.com/tty228/luci-app-serverchan.git package/mine/luci-app-serverchan
 
-rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
+rm -rf ./https://github.com/Lienol/openwrt-luci/tree/17.01/themes/luci-theme-bootstrap && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
