@@ -33,6 +33,5 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/diy/luci-app
 # git clone https://github.com/linkease/ddnsto-openwrt.git package/diy/luci-app-ddnsto
 # svn co https://github.com/limi00/sirpdboy-package/trunk/luci-app-ddnsto package/diy/luci-app-ddnsto
 svn co https://github.com/limi00/sirpdboy-package/trunk/luci-app-autotimeset package/diy/luci-app-autotimeset
-svn co https://github.com/limi00/sirpdboy-package/trunk/luci-app-control-weburl package/diy/luci-app-control-weburl
 
 rm -rf package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
