@@ -14,7 +14,7 @@
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # 替换更新adguardhome
-# rm -rf package/diy/luci-app-adguardhome && git clone https://github.com/limi00/luci-app-adguardhome.git package/diy/luci-app-adguardhome
+rm -rf package/diy/luci-app-adguardhome && git clone https://github.com/limi00/luci-app-adguardhome.git package/diy/luci-app-adguardhome
 
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
@@ -24,7 +24,7 @@
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # # Define My Package
-git clone https://github.com/limi00/luci-app-adguardhome.git package/diy/luci-app-adguardhome
+# git clone https://github.com/limi00/luci-app-adguardhome.git package/diy/luci-app-adguardhome
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-usb3disable package/diy/luci-app-usb3disable
 # git clone https://github.com/immortalwrt/openwrt-passwall.git package/diy/luci-app-passwall
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/diy/luci-app-passwall
